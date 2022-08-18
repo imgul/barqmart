@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-/*!
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"); /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
@@ -10764,6 +10764,17 @@ textarea.form-control-lg {
   font-family: "DM Sans", sans-serif;
 }
 
+.hero-heading, .hero-heading > span {
+  font-family: "Rubik", sans-serif;
+}
+
+.cta-primary {
+  font-weight: 500;
+  min-width: 165px;
+  padding: 12px 15px;
+  transition: 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
 .header-wrapper {
   position: relative;
 }
@@ -10780,11 +10791,11 @@ textarea.form-control-lg {
   align-items: center;
 }
 .header-wrapper .header-top--center {
-  width: 600px;
+  width: 40%;
   height: 48px;
 }
 .header-wrapper .header-top--center .header--search {
-  width: 550px;
+  width: 100%;
   height: 100%;
   background-color: #fff;
   border-radius: 50px;
@@ -10869,6 +10880,38 @@ textarea.form-control-lg {
   font-weight: 500;
   line-height: 24px;
   transition: all ease 0.3s;
+}
+
+.hero-container {
+  height: 393px;
+}
+.hero-container--img {
+  height: 100%;
+  background-image: url("https://cdn.shopify.com/s/files/1/0081/3305/0458/files/home-19-slider-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-container--img--inner {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container--img--inner .hero-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 0 0 23px;
+  color: #fff;
+}
+.hero-container--img--inner .hero-heading span {
+  color: #10ffda;
+}
+.hero-container--img--inner .hero-description {
+  font-size: 18px;
+  color: #fff;
+  padding: 0 0 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
