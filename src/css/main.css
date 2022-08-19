@@ -10784,7 +10784,7 @@ textarea.form-control-lg {
   height: 48px;
 }
 .header-wrapper .header-top--center .header--search {
-  width: 600px;
+  width: 550px;
   height: 100%;
   background-color: #fff;
   border-radius: 50px;
@@ -10828,6 +10828,47 @@ textarea.form-control-lg {
   font-size: 14px;
   margin: 10px 0 0;
   line-height: 14px;
+}
+.header-wrapper .header-bottom {
+  height: 50px;
+  background-color: #161880;
+}
+.header-wrapper .header-bottom .main-menu {
+  height: 100%;
+  padding: 0;
+}
+.header-wrapper .header-bottom .main-menu--wrapper {
+  height: 100%;
+}
+.header-wrapper .header-bottom .main-menu--left {
+  height: 100%;
+}
+.header-wrapper .header-bottom .main-menu--left nav {
+  height: 100%;
+}
+.header-wrapper .header-bottom .main-menu--left nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header-wrapper .header-bottom .main-menu--left nav ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header-wrapper .header-bottom .main-menu--left nav ul li:hover a {
+  color: #f6b924;
+}
+.header-wrapper .header-bottom .main-menu--left nav ul li a {
+  color: #fff;
+  padding: 13px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: all ease 0.3s;
 }
 
 /*# sourceMappingURL=main.css.map */

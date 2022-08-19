@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderBottom from "./HeaderBottom/HeaderBottom";
 import HeaderTop from "./HeaderTop/HeaderTop";
 
 const Header = () => {
@@ -7,6 +8,7 @@ const Header = () => {
       <div className="header-wrapper">
         <header className="header">
           <HeaderTop />
+          <HeaderBottom />
         </header>
       </div>
     </>
