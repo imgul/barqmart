@@ -10914,4 +10914,27 @@ textarea.form-control-lg {
   padding: 0 0 50px;
 }
 
+.policies {
+  padding: 0 15px;
+}
+.policies .container-fluid .row .col-12 .policies-item, .policies .container-sm .row .col-12 .policies-item, .policies .container-md .row .col-12 .policies-item, .policies .container-lg .row .col-12 .policies-item, .policies .container-xl .row .col-12 .policies-item, .policies .container-xxl .row .col-12 .policies-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 17px 20px;
+  color: #0f1054;
+  text-decoration: none;
+}
+.policies .container-fluid .row .col-12 .policies-item .policies-icon, .policies .container-sm .row .col-12 .policies-item .policies-icon, .policies .container-md .row .col-12 .policies-item .policies-icon, .policies .container-lg .row .col-12 .policies-item .policies-icon, .policies .container-xl .row .col-12 .policies-item .policies-icon, .policies .container-xxl .row .col-12 .policies-item .policies-icon {
+  width: 34px;
+  height: 34px;
+  margin-right: 20px;
+}
+.policies .container-fluid .row .col-12 .policies-item .policies-text, .policies .container-sm .row .col-12 .policies-item .policies-text, .policies .container-md .row .col-12 .policies-item .policies-text, .policies .container-lg .row .col-12 .policies-item .policies-text, .policies .container-xl .row .col-12 .policies-item .policies-text, .policies .container-xxl .row .col-12 .policies-item .policies-text {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
