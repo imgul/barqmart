@@ -10959,4 +10959,21 @@ textarea.form-control-lg {
   display: none;
 }
 
+#spotlight-section {
+  padding: 40px 0;
+}
+#spotlight-section .col-12 .spotlight--img {
+  max-width: 98%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#spotlight-section .col-12 .spotlight--img:hover img {
+  transform: scale(1.06);
+}
+#spotlight-section .col-12 .spotlight--img img {
+  width: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
 /*# sourceMappingURL=main.css.map */
