@@ -10917,24 +10917,46 @@ textarea.form-control-lg {
 .policies {
   padding: 0 15px;
 }
+.policies .container-fluid .row .col-12, .policies .container-sm .row .col-12, .policies .container-md .row .col-12, .policies .container-lg .row .col-12, .policies .container-xl .row .col-12, .policies .container-xxl .row .col-12 {
+  position: relative;
+}
 .policies .container-fluid .row .col-12 .policies-item, .policies .container-sm .row .col-12 .policies-item, .policies .container-md .row .col-12 .policies-item, .policies .container-lg .row .col-12 .policies-item, .policies .container-xl .row .col-12 .policies-item, .policies .container-xxl .row .col-12 .policies-item {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   padding: 17px 20px;
-  color: #0f1054;
+  color: #0d0e4c;
   text-decoration: none;
 }
+.policies .container-fluid .row .col-12 .policies-item ::before, .policies .container-sm .row .col-12 .policies-item ::before, .policies .container-md .row .col-12 .policies-item ::before, .policies .container-lg .row .col-12 .policies-item ::before, .policies .container-xl .row .col-12 .policies-item ::before, .policies .container-xxl .row .col-12 .policies-item ::before {
+  content: "";
+  width: 2px;
+  height: 34px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -6px;
+  transform: translateY(-50%);
+  background-color: #dadada;
+}
 .policies .container-fluid .row .col-12 .policies-item .policies-icon, .policies .container-sm .row .col-12 .policies-item .policies-icon, .policies .container-md .row .col-12 .policies-item .policies-icon, .policies .container-lg .row .col-12 .policies-item .policies-icon, .policies .container-xl .row .col-12 .policies-item .policies-icon, .policies .container-xxl .row .col-12 .policies-item .policies-icon {
+  margin-right: 20px;
+}
+.policies .container-fluid .row .col-12 .policies-item .policies-icon svg, .policies .container-sm .row .col-12 .policies-item .policies-icon svg, .policies .container-md .row .col-12 .policies-item .policies-icon svg, .policies .container-lg .row .col-12 .policies-item .policies-icon svg, .policies .container-xl .row .col-12 .policies-item .policies-icon svg, .policies .container-xxl .row .col-12 .policies-item .policies-icon svg {
   width: 34px;
   height: 34px;
-  margin-right: 20px;
 }
 .policies .container-fluid .row .col-12 .policies-item .policies-text, .policies .container-sm .row .col-12 .policies-item .policies-text, .policies .container-md .row .col-12 .policies-item .policies-text, .policies .container-lg .row .col-12 .policies-item .policies-text, .policies .container-xl .row .col-12 .policies-item .policies-text, .policies .container-xxl .row .col-12 .policies-item .policies-text {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 0;
+}
+.policies .container-fluid .row .col-12 .policies-item .policies-text:hover, .policies .container-sm .row .col-12 .policies-item .policies-text:hover, .policies .container-md .row .col-12 .policies-item .policies-text:hover, .policies .container-lg .row .col-12 .policies-item .policies-text:hover, .policies .container-xl .row .col-12 .policies-item .policies-text:hover, .policies .container-xxl .row .col-12 .policies-item .policies-text:hover {
+  text-decoration: underline;
+}
+.policies .container-fluid .row .col-12:first-child .policies-item ::before, .policies .container-sm .row .col-12:first-child .policies-item ::before, .policies .container-md .row .col-12:first-child .policies-item ::before, .policies .container-lg .row .col-12:first-child .policies-item ::before, .policies .container-xl .row .col-12:first-child .policies-item ::before, .policies .container-xxl .row .col-12:first-child .policies-item ::before {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
