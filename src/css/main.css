@@ -10962,15 +10962,29 @@ textarea.form-control-lg {
 #spotlight-section {
   padding: 40px 0;
 }
-#spotlight-section .col-12 .spotlight--img {
-  max-width: 98%;
+#spotlight-section .col-4 .spotlight--img {
+  width: 100%;
   overflow: hidden;
   border-radius: 10px;
 }
-#spotlight-section .col-12 .spotlight--img:hover img {
+#spotlight-section .col-4 .spotlight--img:hover img {
   transform: scale(1.06);
 }
-#spotlight-section .col-12 .spotlight--img img {
+#spotlight-section .col-4 .spotlight--img img {
+  width: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+#spotlight-bottom-section .col-12 .spotlight--img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#spotlight-bottom-section .col-12 .spotlight--img:hover img {
+  transform: scale(1.06);
+}
+#spotlight-bottom-section .col-12 .spotlight--img img {
   width: 100%;
   object-fit: contain;
   transition: transform 0.5s ease;
